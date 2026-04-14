@@ -1,4 +1,5 @@
-**[View document in Syncfusion Xamarin Knowledge base](https://www.syncfusion.com/kb/12134/how-to-remove-expander-sfexpander-from-itemtemplate-of-xamarin-forms-sflistview)**
+# Remove Expander from ListView ItemTemplate Xamarin
+This example demonstrates how to remove expander from ListView itemtemplate in Xamarin.Forms ListView.
 
 ## Sample
 
@@ -46,3 +47,16 @@ private void OnReadClicked(object obj)
     expanderItem.IsExpanded = false;
 }
 ```
+
+**[View document in Syncfusion Xamarin Knowledge base](https://www.syncfusion.com/kb/12134/how-to-remove-expander-sfexpander-from-itemtemplate-of-xamarin-forms-sflistview)**
+
+## Requirements to run the demo
+
+* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
+* Xamarin add-ons for Visual Studio (available via the Visual Studio installer).
+
+## Troubleshooting
+
+### Path too long exception
+
+If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
